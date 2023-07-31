@@ -1,0 +1,57 @@
+:root {
+  --font-cursive: "Dancing Script", cursive;
+  --font-body: "Ubuntu", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url(./img/library.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #747171;
+  background-blend-mode: multiply;
+  min-height: 100vh;
+  display: grid;
+}
+
+.card {
+  place-self: center;
+  background-color: #fff;
+  max-width: 450px;
+  padding: 1.5rem 4rem;
+  border: 4px solid black;
+  border-radius: 1rem;
+}
+
+.card__title {
+  font-family: var(--font-cursive);
+  font-size: 2.5rem;
+}
+
+.card__quote {
+  font-family: var(--font-body);
+}
+
+.card__author {
+  margin-top: 3rem;
+  font-family: serif;
+  font-size: 1.1rem;
+}
+
+.card__btn {
+  background-color: #47a2df;
+  color: white;
+  font-weight: bold;
+  border: solid 1px transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0.8rem 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
